@@ -1,0 +1,36 @@
+html {
+	font-size: 16px;
+}
+
+#left-bar, #middle-bar, #right-bar {
+	display: inline-block;
+	height: 20em;
+	width: 15em;
+}
+
+#middle-bar, #right-bar {
+	margin-left: -1em;
+}
+
+#top-bar, #bottom-bar {
+	background-color: red;
+	height: 4em;
+	width: 43.5em;
+}
+
+#left-bar {
+	background-color: blue;
+}
+
+#middle-bar {
+	background-color: purple;
+}
+
+#right-bar {
+	background-color: yellow;
+}
+
+#bottom-bar {
+	margin-top: -1em;
+	background-color: green;
+}
