@@ -1,0 +1,36 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: gray;
+}
+
+#top-bar{
+	background-color: red;
+	width: 35em;
+	height: 3em;
+	display: block;
+}
+
+#left-bar, #middle-box, #right-bar {
+	display: inline-block;
+}
+
+#left-bar, #right-bar {
+	background-color: yellow;
+	height: 45em;
+	width: 3em;
+}
+
+#middle-box {
+	height: 45em;
+	width: 28.44em;
+	background-color: blue;
+}
+
+#bottom-bar {
+	background-color: green;
+	width: 35em;
+	height: 3em;
+}
